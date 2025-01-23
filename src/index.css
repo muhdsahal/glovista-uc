@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidescroll::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    font-family: 'Raleway', sans-serif;
+    user-select: none;
+}
+@keyframes pulseShadow {
+  0%, 100% {
+    box-shadow: 0 0 2px #79ff5e;
+  }
+  50% {
+    box-shadow: 0 0 20px #79ff5e;
+  }
+}
+
+.special-shadow {
+  animation: pulseShadow 4s infinite;
+}
+
+
+.text-shadow-sm {
+  text-shadow: 1px 1px 2px #1446a0;
+}
+
+.text-shadow-md {
+  text-shadow: 2px 2px 4px #1446a0;
+}
+
+.text-shadow-lg {
+  text-shadow: 3px 3px 6px #1446a0;
+}
+
+.text-shadow-xl {
+  text-shadow: 4px 4px 8px #1446a0;
+}
+
+
