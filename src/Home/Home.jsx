@@ -34,7 +34,7 @@ function Home() {
       <div className="max-w-md mx-auto p-6 bg-white shadow-md">
         <h2 className="text-2xl font-bold  text-black">Launching Offers</h2>
         <p className="p-2 pt-0 text-xs">
-          The best Launching offers. Register here for availing it
+          Register now to unlock exclusive launch offers!
         </p>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
