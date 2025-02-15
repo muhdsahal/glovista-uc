@@ -24,7 +24,7 @@ function ThanksPage() {
           page for the latest updates!
         </p>
         <button
-          onClick={() => window.open("https://www.instagram.com/YOUR_PAGE")}
+          onClick={() => window.open("https://www.instagram.com/glovistacare/")}
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition-all"
